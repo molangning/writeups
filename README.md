@@ -5,4 +5,3 @@ TODO
 - [x] Spice up the repository
 - [ ] Automatic github actions for github pages
 
-test workflows
