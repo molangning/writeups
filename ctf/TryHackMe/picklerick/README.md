@@ -21,6 +21,7 @@ PORT   STATE SERVICE REASON         VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 By visiting the webpage. I got the following
+
 <img src="images/picklerick_0001.png">
 
 While poking around in the source code of the index webpage, I have found a html comment which tells us the username of the login page (I have redacted the username)
