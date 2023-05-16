@@ -28,13 +28,13 @@ While poking around in the source code of the index webpage, I have found a html
 <img src="images/picklerick_0002.png">
 
 ```
-	<!--
+<!--
 
-	Note to self, remember username!
+Note to self, remember username!
 
-	Username: ██████████████
+Username: ██████████████
 
-	-->
+-->
 ```
 
 Afterwards, while taking a look at the robots.txt file, I got a strange message
@@ -63,7 +63,7 @@ Same with head
 
 <img src="images/picklerick_0008.png">
 
-But then...I tested less, and I got no errors!
+But then... I tested less, and I got no errors!
 
 <img src="images/picklerick_0009.png">
 
@@ -74,7 +74,7 @@ And by doing so, we got the the first ingredient!
 While making sure that I have not left anything behind, I have found base64 encoded text in command panel source:
 `Vm1wR1UxTnRWa2RUV0d4VFlrZFNjRlV3V2t0alJsWnlWbXQwVkUxV1duaFZNakExVkcxS1NHVkliRmhoTVhCb1ZsWmFWMVpWTVVWaGVqQT0==`
 	
-When decoded, it reads "rabbit hole" 
+When decoded, it reads "rabbit hole", which meant nothing in this case. Nice troll :smiley:
 
 Now, we are going to try and get a reverse shell with python.
 
